@@ -62,8 +62,8 @@ Proyecto_Mineria_Datos_ETL_Modelos/
 
 ### 1. Clonar/Descargar el Repositorio
 ```bash
-git clone https://github.com/tuusuario/Proyecto_Mining_Datos.git
-cd Proyecto_Mining_Datos
+git clone https://github.com/JhonOlmedo/Articulo_Mining_Datos_Ecuador.git
+cd Articulo_Mining_Datos_Ecuador
 ```
 
 ### 2. Crear Entorno Virtual
