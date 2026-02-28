@@ -1,0 +1,7 @@
+Modelo,AUC
+XGBoost,0.8442386429312378
+GradientBoosting,0.8411397687041593
+Logística completa,0.8283710236899197
+RandomForest,0.8084617111804091
+Logística sin arma,0.6547188131133688
+Logística mínima,0.5567973163269023

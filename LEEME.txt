@@ -1,0 +1,131 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                 PROYECTO MINERÍA DE DATOS - GUÍA RÁPIDA                   ║
+║              Predicción de Delitos de Alta Gravedad Ecuador               ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+📋 CONTENIDO DEL PROYECTO
+─────────────────────────────────────────────────────────────────────────────
+
+✅ main.py                    → Ejecuta todo el pipeline automáticamente
+✅ scripts/etl.py             → Carga y limpieza de datos
+✅ scripts/preprocesamiento.py → Codificación y división temporal
+✅ scripts/modelado.py        → Entrenamiento de 6 modelos
+✅ requirements.txt           → Dependencias de Python
+✅ README.md                  → Documentación completa
+✅ METADATA.md                → Diccionario de datos detallado
+✅ GITHUB_SETUP.md            → Guía para publicar en GitHub
+
+
+🚀 INICIO RÁPIDO (3 PASOS)
+─────────────────────────────────────────────────────────────────────────────
+
+1. Instalar dependencias:
+   
+   pip install -r requirements.txt
+
+
+2. Copiar archivo Excel a carpeta datos/:
+   
+   Archivo: mdi_detenidosaprehendidos_pm_2019_2024.xlsx
+   Destino: datos/
+
+
+3. Ejecutar pipeline completo:
+   
+   python main.py
+
+
+⏳ Tiempo estimado: 10-15 minutos
+📊 Resultados en: resultados/resultados.csv y resultados/comparacion_modelos.png
+
+
+📈 RESULTADOS ESPERADOS
+─────────────────────────────────────────────────────────────────────────────
+
+El script entrenará 6 modelos y generará:
+
+┌─────────────────────────┬─────────┐
+│ Modelo                  │   AUC   │
+├─────────────────────────┼─────────┤
+│ XGBoost                 │ 0.8442  │ ← Mejor modelo
+│ GradientBoosting        │ 0.8411  │
+│ Logística completa      │ 0.8284  │
+│ RandomForest            │ 0.8085  │
+│ Logística sin arma      │ 0.6547  │
+│ Logística mínima        │ 0.5568  │
+└─────────────────────────┴─────────┘
+
+
+📁 ARCHIVOS GENERADOS
+─────────────────────────────────────────────────────────────────────────────
+
+✓ datos/df_procesado.csv              - Dataset limpio (489K registros)
+✓ resultados/resultados.csv           - Tabla AUC de modelos
+✓ resultados/comparacion_modelos.png  - 4 gráficos:
+                                         • Comparación AUC
+                                         • Curvas ROC
+                                         • Feature Importance
+                                         • Matriz de Confusión
+
+
+🔧 PERSONALIZACIÓN
+─────────────────────────────────────────────────────────────────────────────
+
+Si el archivo Excel está en otra ubicación:
+
+1. Abre main.py
+2. Edita línea 26:
+   
+   DATA_PATH = r"C:\TU\RUTA\AQUI\archivo.xlsx"
+
+
+💾 COMPARTIR EN GITHUB
+─────────────────────────────────────────────────────────────────────────────
+
+Sigue la guía en GITHUB_SETUP.md (12 pasos sencillos):
+
+1. Crear cuenta GitHub
+2. Crear repositorio público
+3. Ejecutar 5 comandos Git
+4. Obtener DOI en Zenodo
+5. ¡Listo para publicar en MDPI!
+
+
+📚 DOCUMENTACIÓN COMPLETA
+─────────────────────────────────────────────────────────────────────────────
+
+• README.md      → Documentación técnica completa
+• METADATA.md    → Descripción de datos y variables
+• GITHUB_SETUP.md → Tutorial Git/GitHub paso a paso
+
+
+❓ SOLUCIÓN DE PROBLEMAS
+─────────────────────────────────────────────────────────────────────────────
+
+Error: "ModuleNotFoundError"
+→ Instala dependencias: pip install -r requirements.txt
+
+Error: "FileNotFoundError"
+→ Copia el archivo Excel a la carpeta datos/
+
+Error: Ejecución muy lenta
+→ Normal con 489K registros. Espera 10-15 minutos.
+
+Otros errores
+→ Lee README.md sección "Troubleshooting"
+
+
+✉️ CONTACTO
+─────────────────────────────────────────────────────────────────────────────
+
+Autor: Jhon Olmedo
+Email: [tu email]
+Proyecto: Minería de Datos - Ecuador 2019-2024
+Fecha: 28 de febrero de 2026
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+              ¡Listo para análisis de datos con Machine Learning!
+              
+═══════════════════════════════════════════════════════════════════════════
