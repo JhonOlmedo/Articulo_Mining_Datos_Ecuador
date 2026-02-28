@@ -247,15 +247,6 @@ Descomenta las líneas de serialización si deseas guardarlos.
 
 ---
 
-## 📧 Contacto y Soporte
-
-Para preguntas, issues o sugerencias:
-- 📨 Email: [tu email]
-- 🐙 GitHub Issues: [enlace]
-- 🔗 Dataset original: [enlace a Zenodo/Figshare]
-
----
-
 ## 🙏 Agradecimientos
 
 - Ministerio del Interior Ecuador (datos)
