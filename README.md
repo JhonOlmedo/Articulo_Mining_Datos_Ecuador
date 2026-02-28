@@ -53,7 +53,6 @@ Proyecto_Mineria_Datos_ETL_Modelos/
 ├── requirements.txt                      # Dependencias Python
 ├── README.md                             # Este archivo
 ├── METADATA.md                           # Documentación de datos
-└── GITHUB_SETUP.md                       # Guía para publicar en GitHub
 
 ```
 
